@@ -6,8 +6,8 @@ const projects = [
         description: "A self-driving car simulation created using a genetic algorithm and self-made neural network in Unity3D",
         image: "/projects/project1.png",
         tags: ["C#", "Unity"],
-        demoUrl: "#",
-        githubUrl: "#"
+        demoUrl: "https://sherinawaz.itch.io/ai-car",
+        githubUrl: "https://github.com/SheriNawaz/GeneticAlgorithmTeachesCarToDrive"
     }, 
     {
         id: 2,
@@ -15,8 +15,8 @@ const projects = [
         description: "A procedurally generated dungeon crawler game created in Unity3D filled with complex enemy and boss behaviour.",
         image: "/projects/project2.png",
         tags: ["C#", "Unity"],
-        demoUrl: "#",
-        githubUrl: "#"
+        demoUrl: "https://sherinawaz.itch.io/dungeon-souls-3d",
+        githubUrl: "https://github.com/SheriNawaz/DungeonSouls3D"
     }, 
     {
         id: 3,
