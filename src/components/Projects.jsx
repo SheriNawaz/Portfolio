@@ -11,21 +11,39 @@ const projects = [
     }, 
     {
         id: 2,
+        title: "AI Fruit Classifier",
+        description: "AI Fruit Classifier developed in a team for my Computer Science degree",
+        image: "/projects/project5.png",
+        tags: ["Python", "Scikit", "Pytorch", "Matplot"],
+        demoUrl: "https://github.com/SheriNawaz/FruitClassifier/tree/main",
+        githubUrl: "https://github.com/SheriNawaz/FruitClassifier/tree/main"
+    }, 
+    {
+        id: 3,
+        title: "Kitchen Application",
+        description: "An application for a kitchen team at a restaurant to improve communication and efficiency with other teams at the restaurant.",
+        image: "/projects/project3.png",
+        tags: ["Java", "SQL"],
+        demoUrl: "https://github.com/SheriNawaz/KitchenApp",
+        githubUrl: "https://github.com/SheriNawaz/KitchenApp"
+    }, 
+    {
+        id: 4,
+        title: "Racing Game",
+        description: "A racing game created in C++ using OpenGl implementing toon shaders",
+        image: "/projects/project4.png",
+        tags: ["C++", "OpenGL"],
+        demoUrl: "https://github.com/SheriNawaz/OpenGLRacingGame",
+        githubUrl: "https://github.com/SheriNawaz/OpenGLRacingGame"
+    }, 
+    {
+        id: 5,
         title: "Dungeon Souls 3D",
         description: "A procedurally generated dungeon crawler game created in Unity3D filled with complex enemy and boss behaviour.",
         image: "/projects/project2.png",
         tags: ["C#", "Unity"],
         demoUrl: "https://sherinawaz.itch.io/dungeon-souls-3d",
         githubUrl: "https://github.com/SheriNawaz/DungeonSouls3D"
-    }, 
-    {
-        id: 3,
-        title: "Blank",
-        description: "blank",
-        image: "/projects/project3.png",
-        tags: ["blank"],
-        demoUrl: "#",
-        githubUrl: "#"
     }, 
 ]
 
