@@ -1,4 +1,7 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+
+import { Link } from 'react-router-dom';
+
 const projects = [
     {
         id: 1,
@@ -26,24 +29,6 @@ const projects = [
         tags: ["Java", "SQL"],
         demoUrl: "https://github.com/SheriNawaz/KitchenApp",
         githubUrl: "https://github.com/SheriNawaz/KitchenApp"
-    }, 
-    {
-        id: 4,
-        title: "Racing Game",
-        description: "A racing game created in C++ using OpenGl implementing toon shaders",
-        image: "/projects/project4.png",
-        tags: ["C++", "OpenGL"],
-        demoUrl: "https://github.com/SheriNawaz/OpenGLRacingGame",
-        githubUrl: "https://github.com/SheriNawaz/OpenGLRacingGame"
-    }, 
-    {
-        id: 5,
-        title: "Dungeon Souls 3D",
-        description: "A procedurally generated dungeon crawler game created in Unity3D filled with complex enemy and boss behaviour.",
-        image: "/projects/project2.png",
-        tags: ["C#", "Unity"],
-        demoUrl: "https://sherinawaz.itch.io/dungeon-souls-3d",
-        githubUrl: "https://github.com/SheriNawaz/DungeonSouls3D"
     }, 
 ]
 
@@ -88,7 +73,9 @@ export const Projects = () => {
                     ))}
                 </div>
                 <div className="text-center mt-12">
-                    <a href="https://github.com/SheriNawaz" className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank">Check Out My GitHub For More <ArrowRight size={16} /></a>
+                    <Link to="/archive" className="cosmic-button w-fit flex items-center mx-auto gap-2">
+                        View All My Projects <ArrowRight size={16} />
+                    </Link>
                 </div>
             </div>
        </section>

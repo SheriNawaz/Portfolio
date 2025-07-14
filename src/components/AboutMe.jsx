@@ -16,13 +16,11 @@ export const AboutMe = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              After studying Computer Science at a degree level and spending over a year as a part-time Junior Developer, I specialise in developing innovative solutions to solve complex problems, with a keen interest in AI and Machine Learning
+              After studying Computer Science at a degree level and spending 2 years as a part-time Fullstack Developer, I specialise in developing innovative solutions to solve complex problems, with a keen interest in AI and Machine Learning
             </p>
 
             <p className="text-muted-foreground">
-              I'm a recent software engineering graduate with a passion for building clean, efficient solutions to complex problems. I'm always exploring new tools, technologies, and best practices to grow as a developer and stay current in the fast-paced world of software development.
-
-
+              I am a recent Computer Science graduate with a passion for building clean, efficient solutions to complex problems. I'm always exploring new tools, technologies, and best practices to grow as a developer and stay current in the fast-paced world of software development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -51,6 +49,9 @@ export const AboutMe = () => {
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> ReactJS </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> SQL </span>
                         <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> PHP </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> NodeJS </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> OpenGL </span>
+                        <span className="px-2 py-1 text-xs border font-medium rounded-full bg-secondary text-secondary-foreground"> Unity3D </span>
                       </div>
                   </p>
                 </div>

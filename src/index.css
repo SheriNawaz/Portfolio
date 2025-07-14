@@ -4,12 +4,12 @@
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
-
+  
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
-
+  
   --color-card: hsl(var(--card));
-
+  
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
   --animate-fade-in: fade-in 0.7s ease-out forwards;
@@ -18,7 +18,7 @@
   --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
   --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
   --animate-meteor: meteor 5s linear infinite;
-
+  
   @keyframes float {
     0%,
     100% {
@@ -66,35 +66,35 @@
   :root {
     --background: 210 40% 98%;
     --foreground: 222 47% 11%;
-
+    
     --card: 0 0% 100%;
-
+    
     --primary: 250 47% 60%;
     --primary-foreground: 210 40% 98%;
-
+    
     --border: 214 32% 91%;
   }
-
+  
   .dark {
-    --background: 222 47% 4%;
+    --background: 222 47% 2%;
     --foreground: 213 31% 91%;
-
-    --card: 222 47% 8%;
-
-    --primary: 250 65% 65%;
+    
+    --card: 140 30% 8% / 0.3;
+    
+    --primary: 142 76% 35%;
     --primary-foreground: 213 31% 91%;
-
-    --border: 217 33% 20%;
+    
+    --border: 217 33% 15%;
   }
-
+  
   * {
     @apply border-border;
   }
-
+  
   html {
     @apply scroll-smooth;
   }
-
+  
   body {
     @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
@@ -104,7 +104,7 @@
 @utility container {
   margin-inline: auto;
   padding-inline: 2rem;
-
+  
   @media (width >= 640px) {
     max-width: 640px;
   }
@@ -139,8 +139,8 @@
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
-         transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium
+          transition-all duration-300 hover:shadow-[0_0_10px_rgba(34,197,94,0.5)]
          hover:scale-105 active:scale-95;
 }
 
