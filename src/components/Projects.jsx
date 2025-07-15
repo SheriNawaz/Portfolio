@@ -27,7 +27,7 @@ const projects = [
         description: "An application for a kitchen team at a restaurant to improve communication and efficiency with other teams at the restaurant.",
         image: "/projects/project3.png",
         tags: ["Java", "SQL"],
-        demoUrl: "https://github.com/SheriNawaz/KitchenApp",
+        demoUrl: "https://github.com/SheriNawaz/KitchenApp/blob/main/README.md",
         githubUrl: "https://github.com/SheriNawaz/KitchenApp"
     }, 
 ]
